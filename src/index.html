@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.muicss.com/mui-latest/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript"
+        src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=hVQ6-nIgTOyFqtMjMC-KDAiuh266YhYzOK5ZU_67bNHClzLSjt7lQgJK-yAVvP3EpIUH0hcbVIDXqm4MSud8vZpNTxZAvLFW5l9h3DJCjEaemay1XF42nmNlvr_5VvfZ"
+        charset="UTF-8"></script>
+    <script src="https://cdn.muicss.com/mui-latest/js/mui.min.js"></script>
+    <title>Web Podcast</title>
+</head>
+
+<body>
+    <button class="mui-btn mui-btn--fab mui-btn--accent floating-btn" id="modal-Btn">Все</button>
+    <div id="sidebar">
+        <div class="mui--text-white mui--text-display1 mui--align-vertical">ПОДКАСТ ВОПРОСЫ</div>
+        <br>
+        <small class="author">by Dmitry</small>
+    </div>
+    <div id="content" class="mui-container-fluid">
+        <div class="mui-row">
+            <div class="mui-col-sm-10 mui-col-sm-offset-1">
+                <br>
+                <br>
+                <div class="mui--text-black-54 mui--text-body2">ЗАДАЙ ВОПРОС</div>
+                <div class="mui-divider"></div>
+                <br>
+                <form class="mui-form" id="form">
+                    <div class="mui-textfield mui-textfield--float-label">
+                        <input type="text" id="question-input" required minlength="10" maxlength="256">
+                        <label for="question-input">Какой у тебя вопрос Бро?</label>
+                    </div>
+                    <button type="submit" id="submit-btn" class="mui-btn mui-btn--raised mui-btn--primary color_btn" disabled >
+                        Отправить вопрос
+                    </button>
+                </form>
+                <br>
+                <br>
+                <div class="mui--text-black-54 mui--text-body2">ВАШИ ВОПРОСЫ</div>
+                <div class="mui-divider"></div>
+                <br>
+
+                <div id="list"></div>         
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
